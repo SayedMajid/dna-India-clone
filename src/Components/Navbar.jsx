@@ -11,7 +11,7 @@ export const Navbar = () => {
   };
   return (
     <>
-      <Box display="flex" justifyContent="space-between" p="15px" bg="#ffde2f" position="fixed" w="100%">
+      <Box display="flex" justifyContent="space-between" p="15px" bg="#ffde2f" position="fixed" w="100%" px="12%">
         <Image src={logo} alt="dnaLogo" h="40px" w="88px" />
         <Box>
           <FormControl display="flex" w="300px">

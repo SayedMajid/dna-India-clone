@@ -1,13 +1,11 @@
-import React from "react";
-import { Box } from "@chakra-ui/react";
+import React from 'react'
 
 const Sidebar = () => {
   return (
-    <>
-      <Box border="1px solid black">
-      </Box>
-    </>
-  );
-};
+    <div>
+      
+    </div>
+  )
+}
 
-export default Sidebar;
+export default Sidebar
