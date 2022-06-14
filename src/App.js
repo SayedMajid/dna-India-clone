@@ -8,7 +8,7 @@ function App() {
     <div>
       <Navbar/>
       <Routes>
-          <Route path={"/"} element={<div>Latest</div>}/>
+          {/* <Route path={"/"} element={<div>Home</div>}/> */}
       </Routes>
     </div>
   );
