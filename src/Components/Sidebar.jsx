@@ -1,13 +1,13 @@
-import React from 'react'
-import {Box} from "@chakra-ui/react"
-import {Link} from "react-router-dom"
+import React from "react";
+import { Box } from "@chakra-ui/react";
 
 const Sidebar = () => {
   return (
-    <Box>
-      
-    </Box>
-  )
-}
+    <>
+      <Box border="1px solid black">
+      </Box>
+    </>
+  );
+};
 
-export default Sidebar
+export default Sidebar;
