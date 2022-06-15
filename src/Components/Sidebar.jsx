@@ -10,8 +10,8 @@ const Sidebar = () => {
       ml="12px"
       mt="12px"
       h="fit-content"
-      pos="fixed"
-      top="70px"
+      pos="sticky"
+      top="90px"
     >
       <Box display="flex" _hover={{bg: "#ffde2f"}} p="5px">
         <Image

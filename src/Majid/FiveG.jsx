@@ -10,7 +10,7 @@ const FiveG = () => {
       w="650px"
       position="relative"
       top="70px"
-      left="310px"
+      left="30px"
       p="10px"
     >
       <Text fontSize="32px" color="#36363c" lineHeight="33px" fontWeight="700">

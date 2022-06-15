@@ -6,6 +6,7 @@ import Home from "./Majid/Home";
 import { Routes, Route } from "react-router-dom";
 import Explainers from "./Majid/Explainers";
 import FiveG from "./Majid/FiveG";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           </Routes>
         </Box>
       </Box>
+      <Footer/>
     </Box>
   );
 }

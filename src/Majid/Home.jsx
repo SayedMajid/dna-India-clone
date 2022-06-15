@@ -20,7 +20,7 @@ const Home = () => {
       w="fit-content"
       position="relative"
       top="70px"
-      left="310px"
+      left="30px"
       p="10px"
     >
       {/* TOP News */}
