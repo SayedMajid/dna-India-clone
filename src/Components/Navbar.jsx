@@ -12,13 +12,13 @@ export const Navbar = () => {
   };
   return (
     <>
-      <Box display="flex" justifyContent="space-between" p="15px" bg="#ffde2f" position="fixed" w="full">
+      <Box display="flex" justifyContent="space-between" h="65px" bg="#ffde2f" position="fixed" zIndex="2" w="full" boxShadow=" 0 2px 8px 1px rgb(0 0 0 / 20%)">
         <Box>
           <Link to="/">
-            <Image src={logo} alt="dnaLogo" h="40px" w="88px" />
+            <Image src={logo} alt="dnaLogo" h="40px" w="88px" mt="12px" ml="20px"  />
           </Link>
         </Box>
-        <Box>
+        <Box mt="10px">
           <FormControl display="flex" w="300px">
             <Box border="1px solid black" borderRight="none">
               <Input

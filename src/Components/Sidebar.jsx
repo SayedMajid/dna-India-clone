@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Sidebar = () => {
   return (
     <Box
-      border="1px solid black"
+      border="0px solid black"
       w="307px"
       ml="12px"
       mt="12px"
