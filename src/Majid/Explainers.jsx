@@ -5,6 +5,7 @@ import React from "react";
 import Explainer from "./Data/ExplainersData";
 
 const Explainers = () => {
+
   console.log(Explainer);
 
   const navigate = useNavigate();
@@ -43,7 +44,7 @@ const Explainers = () => {
           return (
             <Box key={el.name} display="flex" bg="#fff" p="7px" border="0px solid black" onClick={() => myFn(el)}>
               <Image src={el.imageUrl} w="157.88px" h="89px"/>
-              <Text ml="10px">{el.name}</Text>
+              <Text ml="10px">{el.title}</Text>
             </Box>
           );
         })}
