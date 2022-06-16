@@ -9,7 +9,12 @@ const Home = () => {
   const navigate = useNavigate();
 
   const navigateFiveG = () => {
-    navigate("../FiveG")
+    navigate("/FiveG")
+  }
+
+  const myFn = (e) => {
+    localStorage.setItem("MyNews", JSON.stringify(e))
+    navigate("/MyNews")
   }
 
   return (
@@ -46,11 +51,11 @@ const Home = () => {
         gap="10px"
         w="650px"
       >
-        {HomeData.map(({ imageUrl, title }) => {
+        {HomeData.map((el) => {
           return (
-            <Box display="flex" bg="#fff" p="7px" border="0px solid black">
-              <Image src={imageUrl} w="157.88px" h="89px" />
-              <Text ml="10px">{title}</Text>
+            <Box key={el.id} display="flex" bg="#fff" p="7px" border="0px solid black" onClick={() => myFn(el)}>
+              <Image src={el.imageUrl} w="157.88px" h="89px" />
+              <Text ml="10px">{el.title}</Text>
             </Box>
           );
         })}

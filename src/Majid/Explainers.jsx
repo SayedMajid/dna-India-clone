@@ -1,12 +1,18 @@
 import { Box , Image, Text} from "@chakra-ui/react";
 import { ChevronRightIcon } from "@chakra-ui/icons"
-import {Link} from "react-router-dom"
+import {Link , useNavigate} from "react-router-dom"
 import React from "react";
 import Explainer from "./Data/ExplainersData";
 
 const Explainers = () => {
   console.log(Explainer);
 
+  const navigate = useNavigate();
+
+  const myFn = (e) => {
+    localStorage.setItem("MyNews", JSON.stringify(e))
+    navigate("/MyNews")
+  }
   return (
     <Box
       // border="1px solid black"
@@ -33,11 +39,11 @@ const Explainers = () => {
         gap="10px"
         w="650px"
       >
-        {Explainer.map(({ imageUrl, name }) => {
+        {Explainer.map((el) => {
           return (
-            <Box display="flex" bg="#fff" p="7px" border="0px solid black">
-              <Image src={imageUrl} w="157.88px" h="89px" />
-              <Text ml="10px">{name}</Text>
+            <Box key={el.name} display="flex" bg="#fff" p="7px" border="0px solid black" onClick={() => myFn(el)}>
+              <Image src={el.imageUrl} w="157.88px" h="89px"/>
+              <Text ml="10px">{el.name}</Text>
             </Box>
           );
         })}

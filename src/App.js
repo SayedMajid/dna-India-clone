@@ -6,6 +6,7 @@ import Home from "./Majid/Home";
 import { Routes, Route } from "react-router-dom";
 import Explainers from "./Majid/Explainers";
 import FiveG from "./Majid/FiveG";
+import MyNews from "./Majid/MyNews"
 import Footer from "./Components/Footer";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
             <Route path="/" element={<Home/>}/>
             <Route path="/Explainers" element={<Explainers/>}/>
             <Route path="/FiveG" element={<FiveG/>}/>
+            <Route path="/MyNews" element={<MyNews/>}/>
           </Routes>
         </Box>
       </Box>
