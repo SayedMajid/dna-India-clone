@@ -71,5 +71,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 //Test Aditya
 
+<<<<<<< HEAD
 manoj barki//
 manoj barki//
+=======
+//Test Bhagesh
+>>>>>>> Bhagesh
