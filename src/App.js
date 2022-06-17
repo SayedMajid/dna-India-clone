@@ -10,6 +10,7 @@ import MyNews from "./Majid/MyNews"
 import Footer from "./Components/Footer";
 
 function App() {
+ 
   return (
     <Box>
       <Navbar />

@@ -1,0 +1,31 @@
+.parent{
+    width: 60%;
+    text-align: left;
+}
+.h1{
+    font-size:32px;
+    color: #36363c;
+    line-height: 33px;
+    font-family:"Roboto Slab", serif ;
+}
+.img{
+    height: 500px;
+    width: 100%;
+}
+.p{
+font-size:16px;
+line-height:19px;
+}
+.span{
+    font-size: 12px;
+    line-height:18px;
+    color:#707070;
+    display: flex;
+    place-items:center;
+    justify-content: space-between;
+    width: 65%;
+}
+.dnaimg{
+    height:30px;
+    width:30px;
+}

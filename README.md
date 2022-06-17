@@ -70,3 +70,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 //Test Aditya
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+manoj barki//
+manoj barki//
+=======
+//Test Bhagesh
+>>>>>>> Bhagesh
+=======
+//Test Pradeep
+>>>>>>> Pradeep
+=======
+//Text Gopireddy
+>>>>>>> Gopireddy
