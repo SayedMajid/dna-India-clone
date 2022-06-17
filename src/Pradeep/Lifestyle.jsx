@@ -5,6 +5,7 @@ import Spinner from "./Spinner";
 import InfiniteScroll from "react-infinite-scroll-component";
 import axios from "axios";
 import { lifestyleApi } from "./Bussiness/action";
+// import { lifestyleApi } from "./Bussiness/action";
 
 const Lifestyle = () => {
   const { data, loading, error } = useSelector((state) => state.buss);
@@ -36,7 +37,7 @@ const Lifestyle = () => {
     return <h1>Something went wrong</h1>;
   }
   return (
-    <div>
+    <div className=" my-5 p-4">
       <div className=" w-50">
         <nav aria-label="breadcrumb">
           <ol className="breadcrumb">

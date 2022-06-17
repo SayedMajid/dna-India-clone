@@ -2,6 +2,7 @@ import React from "react";
 import { Box, Image } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 
+
 const Sidebar = () => {
   return (
     <Box
@@ -19,7 +20,7 @@ const Sidebar = () => {
           alt=""
           mr="5px"
         />
-        <Link to="/LatestNews">Latest News</Link>
+        <Link to="/Newslatest">Latest News</Link>
       </Box>
       <Box  display="flex" _hover={{bg: "#ffde2f"}} p="5px">
       <Image
@@ -51,7 +52,7 @@ const Sidebar = () => {
           alt=""
           mr="5px"
         />
-        <Link to="/India">India</Link>
+        <Link to="/NewsIndia">India</Link>
       </Box>
       <Box  display="flex" _hover={{bg: "#ffde2f"}} p="5px">
       <Image
@@ -83,7 +84,7 @@ const Sidebar = () => {
           alt=""
           mr="5px"
         />
-        <Link to="/Lifestyle">Lifestyle</Link>
+        <Link to="/lifestyle">Lifestyle</Link>
       </Box>
       <Box  display="flex" _hover={{bg: "#ffde2f"}} p="5px">
       <Image
@@ -95,7 +96,7 @@ const Sidebar = () => {
       </Box>
       <Box  display="flex" _hover={{bg: "#ffde2f"}} p="5px">
       <Image
-          src="https://english.cdn.zeenews.com/static/public/icons/icons-business.svg"
+          src="https://english.cdn.zeenews.com/static/public/icons/icons-world.svg"
           alt=""
           mr="5px"
         />
