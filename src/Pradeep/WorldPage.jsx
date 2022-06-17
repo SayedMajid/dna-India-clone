@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { worldPageApi } from "../worldpage/action";
+import { worldPageApi } from "./worldpage/action";
 import Spinner from "./Spinner";
 const WorldPage = () => {
   const { id } = useParams();

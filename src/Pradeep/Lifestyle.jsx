@@ -4,7 +4,7 @@ import { Link, useParams } from "react-router-dom";
 import Spinner from "./Spinner";
 import InfiniteScroll from "react-infinite-scroll-component";
 import axios from "axios";
-import { lifestyleApi } from "../Bussiness/action";
+import { lifestyleApi } from "./Bussiness/action";
 
 const Lifestyle = () => {
   const { data, loading, error } = useSelector((state) => state.buss);

@@ -5,10 +5,10 @@ import {
   applyMiddleware,
 } from "redux";
 import thunk from "redux-thunk";
-import { lifestyleReducer } from "../Bussiness/lifestylereducer";
-import { pageReducer } from "../Busspage/pagereducer";
-import { worldReducer } from "../world/worldreducer";
-import { worldpageReducer } from "../worldpage/worldpagereducer";
+import { lifestyleReducer } from "../../Bussiness/lifestylereducer";
+import { pageReducer } from "../../Busspage/pagereducer";
+import { worldReducer } from "../../world/worldreducer";
+import { worldpageReducer } from "../../worldpage/worldpagereducer";
 
 const rootReducer = combineReducers({
   buss: lifestyleReducer,

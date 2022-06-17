@@ -2,11 +2,11 @@ import { Route, Routes } from "react-router-dom";
 import "./App.css";
 
 import Navbar from "./Components/Navbar";
-import Sidebar from "./Components/Sidebar";
-import Lifestyle from "./Components/Lifestyle";
-import LifestylePage from "./Components/LifestylePage";
-import Worldnews from "./Components/Worldnews";
-import WorldPage from "./Components/WorldPage";
+import Sidebar from "./Pradeep/Sidebar";
+import Lifestyle from "./Pradeep/Lifestyle";
+import LifestylePage from "./Pradeep/LifestylePage";
+import Worldnews from "./Pradeep/Worldnews";
+import WorldPage from "./Pradeep/WorldPage";
 
 function App() {
   return (

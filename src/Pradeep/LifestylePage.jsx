@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link, useParams } from "react-router-dom";
-import { lifestylePageApi } from "../Busspage/action";
+import { lifestylePageApi } from "./Busspage/action";
 import Spinner from "./Spinner";
 
 

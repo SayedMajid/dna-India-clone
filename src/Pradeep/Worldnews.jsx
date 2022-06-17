@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { worldApi } from "../world/action";
+import { worldApi } from "./world/action";
 import { Link, useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import Spinner from "./Spinner";
