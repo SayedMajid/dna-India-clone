@@ -1,0 +1,79 @@
+.flex{
+    display: flex;
+    height: 100px;
+    /* width: 60%; */
+    text-align: center;
+    flex-direction:row;
+    margin-bottom: 10px;
+    /* border: 1px solid black; */
+    padding: 10px;
+    background-color: #ffffff;
+    font-family: "Roboto Slab", sans-serif;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.img{
+    width: 100%;
+    height:100%;
+}
+.parent{
+    height:100%;
+    width:20%;
+}
+.h1{
+    width: 80%;
+    font-size:15px;
+    line-height:18px;
+    background-color: #ffffff;
+    color: black;
+    padding-left: 10px;
+}
+.link{
+    text-decoration:none;
+}
+.h1:hover{
+    cursor: pointer;
+    color:#3b5998;
+}
+.hide{
+    height: 760px;
+    overflow-y: hidden;
+}
+.show{
+    height: 100%;
+    overflow-y: auto;
+}
+.headline{
+    font-size:24px;
+    line-height:29px;
+    font-weight: 500px;
+    /* border: 1px solid black; */
+    margin-bottom: 0px;
+}
+.line{
+    /* color:#e2e2e2; */
+   
+    /* width:300px; */
+    border-top: 2px solid #e2e2e2 ;
+    /* align:left; */
+    border-left: 100px solid yellow;
+}
+.line2{
+    width:10px;
+}
+.morenews{
+    font-size: 13px;
+    border: 2px solid black;
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left:5%;
+    font-weight: bolder;
+}
+.morenews:hover{
+    color:yellow;
+    cursor: pointer;
+}
