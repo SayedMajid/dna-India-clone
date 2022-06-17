@@ -1,0 +1,5 @@
+export const GET_SPORTS_DATA_LOADING="/getdataloading"
+export const GET_SPORTS_DATA_SUCCESS="/getdatasuccess"
+export const GET_SPORTS_DATA_ERROR="/getdataerror"
+export const GET_SPORTS_INDIVISUAL_DATA="/getdataofindivisual"
+export const SHOW_MORE_DATA="/moredata"

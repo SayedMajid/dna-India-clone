@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Sportsmain from './manoj/sports page/components/Sportsmain';
+import { Route, Routes } from 'react-router-dom';
+import Sportdetail from './manoj/sports page/page/Sportdetail';
+import Entertainmentmain from './manoj/entertainment page/components/Entertainmentmain';
+import Entertainmentdetail from './manoj/entertainment page/page/Entertainmentdetail';
 
 function App() {
+ 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route path="/" element={<Entertainmentmain></Entertainmentmain>}></Route>
+        <Route path="/:id" element={<Entertainmentdetail></Entertainmentdetail>}></Route>
+      </Routes>
+
+
     </div>
   );
 }
