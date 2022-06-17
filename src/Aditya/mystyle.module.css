@@ -1,0 +1,83 @@
+
+.Containeradi{
+    height: 105.50px;
+    width: 650px;
+    border:none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 5px;
+  display: flex;
+margin-top: 20px;
+  padding: 10px;
+ /* border: 1px solid red; */
+margin-left: 400px;
+}
+.adiheader{
+  border-bottom: 2px solid #ffde2f;
+  display: inline;
+  font-size: 24px;
+  text-transform: uppercase;
+  padding-bottom: 4px;
+  margin-left: 400px;
+}
+
+ .adiimg{
+  height: 85px;
+  width: 153px;
+}
+.adititle{
+ margin-left:10px;
+ font-size: 15px;
+ font-weight: 400;
+ line-height: 18px;
+ display: block;
+ font-family: 'Roboto Slab',sans-serif;
+ color: #4c4c4c;
+ text-align: start;
+ /* box-sizing: border-box; */
+ text-decoration: none;
+}
+.adititle:hover{
+  color: #4f56d6;
+}
+.adilink{
+  color: #4c4c4c;
+  text-decoration: none;
+  border-bottom: none;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  display: block;
+}
+
+.indiadetailsadi{
+  width: 663px;
+  margin-left: 400px;
+}
+.h1details{
+  font-size: 32px;
+    color: #36363c;
+    line-height: 33px;
+    padding: 5px 0 15px 0;
+    font-weight: 700;
+    font-family: "Roboto Slab",serif;
+}
+.descdetails{
+  font-size: 18px;
+    font-weight: 400;
+    font-family: "Roboto Slab",serif;
+    padding-bottom: 10px;
+}
+.imgdetails{
+  max-width: 100%;
+  height: auto;
+}
+.paradetails{
+  
+  font-size: 20px;
+  color: #4c4c4c;
+  line-height: 30px;
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight:400;
+  font-family: "Roboto Slab",serif;
+}
