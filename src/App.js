@@ -1,23 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
-
+import { Business } from './Bhagesh/Business';
+import Business2 from './Bhagesh/Business2';
+import { World } from './Bhagesh/World';
+import World2 from './Bhagesh/World2';
+import { Navbar } from './Bhagesh/Navbar';
+import { Route, Routes } from 'react-router-dom';
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        {/* <Navbar/> */}
+        {/* <Routes>
+          <Route path="/" element={<Business/>} />
+          <Route path="/:id" element={<Business2/>}/>
+          <Route path="/" element={<World/>} />
+          <Route path="/:id" element={<World2/>}/>
+          <Route path='/*'  />
+        </Routes> */}
     </div>
   );
 }
