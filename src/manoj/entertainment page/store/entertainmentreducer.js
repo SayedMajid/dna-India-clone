@@ -9,7 +9,6 @@ data:[]
     },
     entertainmentitems:{}
 }
-let entertainment=JSON.parse(localStorage.getItem("entertainment"))||[]
 
 export const entertainmentreducer=(state=initial,{type,payload})=>{
 switch(type){
@@ -32,6 +31,8 @@ switch(type){
         return {...state}
     }
     case GET_ENTERTAINMENT_INDIVISUAL_DATA :{
+let entertainment=JSON.parse(localStorage.getItem("entertainment"))||[]
+
         let showdata=entertainment.filter((el,index)=>{
             return index===Number(payload)
         })

@@ -58,6 +58,7 @@
     border-top: 2px solid #e2e2e2 ;
     /* align:left; */
     border-left: 100px solid yellow;
+    margin-bottom: 10px;
 }
 .line2{
     width:10px;

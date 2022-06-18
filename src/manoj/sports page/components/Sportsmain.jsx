@@ -7,7 +7,7 @@ const Sportsmain = () => {
       setvalue(!value)
     }
   return (
-    <div style={{width:"60%", marginTop:"95px"}}>
+    <div style={{width:"60%", marginTop:"95px"}} >
       <p className={styles.headline} >SPORTS</p>
       
       <hr className={styles.line} style={{align:"left"}}></hr>

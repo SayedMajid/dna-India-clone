@@ -24,7 +24,7 @@ line-height:19px;
     display: flex;
     place-items:center;
     justify-content: space-between;
-    width: 65%;
+    width:100%;
 }
 .dnaimg{
     height:30px;

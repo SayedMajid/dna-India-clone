@@ -9,7 +9,6 @@ data:[]
     },
     sportsitems:{}
 }
-let maindata=JSON.parse(localStorage.getItem("maindata"))||[]
 
 export const sportsreducer=(state=initial,{type,payload})=>{
 switch(type){
@@ -32,6 +31,8 @@ switch(type){
         return {...state}
     }
     case GET_SPORTS_INDIVISUAL_DATA :{
+        let maindata=JSON.parse(localStorage.getItem("maindata"))||[]
+
         let showdata=maindata.filter((el,index)=>{
             return index===Number(payload)
         })
