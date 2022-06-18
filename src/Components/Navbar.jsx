@@ -12,7 +12,7 @@ export const Navbar = () => {
   };
   return (
     <>
-      <Box display="flex" justifyContent="space-between" h="65px" bg="#ffde2f" position="fixed" zIndex="2" w="full" boxShadow=" 0 2px 8px 1px rgb(0 0 0 / 20%)">
+      <Box display="flex" justifyContent="space-between" h="65px" bg="#ffde2f" position="fixed" zIndex="1" w="full" boxShadow=" 0 2px 8px 1px rgb(0 0 0 / 20%)">
         <Box>
           <Link to="/">
             <Image src={logo} alt="dnaLogo" h="40px" w="88px" mt="12px" ml="20px"  />

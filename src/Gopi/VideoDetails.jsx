@@ -3,7 +3,7 @@ import {Link} from "react-router-dom"
 
 const home={
     display:"flex",
-    marginLeft:"30%",
+    // marginLeft:"30%",
     cursor:"pointer"
 }
 const logos={
@@ -14,14 +14,18 @@ const logos={
 }
 const container={
     width:"650px",
-    marginLeft:"30%",
+    // marginLeft:"30%",
     backgroundColor:"#16171a",
      color:"white",
 }
 
+const mainBox= {
+    marginTop:"95px"
+}
+
 const VideoDetails = () => {
   return (
-     <div>
+     <div style={mainBox}>
          <div style={home}>
         <Link to="/"> <h5 >Home</h5></Link>
             <p>/</p>

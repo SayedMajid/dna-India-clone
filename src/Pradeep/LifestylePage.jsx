@@ -16,7 +16,7 @@ const LifestylePage = () => {
   }, []);
 
   return (
-    <div>
+    <div className=" my-5 p-3">
       <div className=" p-2 ">
         <nav aria-label="breadcrumb">
           <ol className="breadcrumb">

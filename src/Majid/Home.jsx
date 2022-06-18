@@ -4,7 +4,7 @@ import HomeData from "../Majid/Data/HomeData";
 import { useNavigate } from "react-router-dom";
 const Home = () => {
 
-  console.log(HomeData);
+  // console.log(HomeData);
 
   const navigate = useNavigate();
 

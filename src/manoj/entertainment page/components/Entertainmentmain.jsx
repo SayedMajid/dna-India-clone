@@ -7,7 +7,7 @@ const Entertainmentmain = () => {
       setvalue(!value)
     }
   return (
-    <div style={{width:"60%"}}>
+    <div style={{width:"60%", marginTop:"100px"}}>
       <p className={styles.headline} >ENTERTAINMENT</p>
       
       <hr className={styles.line} style={{align:"left"}}></hr>

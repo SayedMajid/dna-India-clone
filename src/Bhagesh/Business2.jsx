@@ -12,10 +12,12 @@ const Business2 = () => {
    console.log(showdata[0])
 //    console.log(id)
   return (
-    <div className='business2'>
-        <h1>{showdata[0].title}</h1>
-        <img src={showdata[0].urlToImage} alt="" />
-        <p>{showdata[0].description}</p>
+    <div className="business2">
+      <h1 className="fw-bold fs-1">{showdata[0].title}</h1>
+      <div className="w-100 p-1 m-2">
+        <img src={showdata[0].urlToImage} alt="" className="w-100" />
+      </div>
+      <p style={{fontSize:"20px"}}>{showdata[0].description}</p>
     </div>
   )
 }
