@@ -36,7 +36,7 @@ const Sidebar = () => {
           alt=""
           mr="5px"
         />
-        <Link to="/Videos">Videos</Link>
+        <Link to="/Video">Videos</Link>
       </Box>
       <Box  display="flex"_hover={{bg: "#ffde2f"}} p="5px">
       <Image

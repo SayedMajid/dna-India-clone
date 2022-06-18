@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import {Navigate } from "react-router-dom"
 import { useNavigate } from 'react-router'
-import PhotoDetails from './photos/PhotoDetails'
+import PhotoDetails from './PhotoDetails'
 import {Link} from "react-router-dom"
- import {video} from "./video/Video"
+import Video from "./Video"
 // import  {useState} from "react"
 const home={
     display:"flex",
@@ -17,7 +17,8 @@ const home={
 const box={
   // height:"450px",
   width:"650px",
-  marginLeft:"360px",
+  marginLeft:"85px",
+  marginTop:"80px",
   cursor:"pointer",
   borderRadius:"5px",
   boxShadow: "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",

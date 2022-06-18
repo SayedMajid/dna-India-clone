@@ -22,6 +22,10 @@ import Entertainmentmain from "./manoj/entertainment page/components/Entertainme
 import Entertainmentdetail from "./manoj/entertainment page/page/Entertainmentdetail";
 import Sportsmain from "./manoj/sports page/components/Sportsmain"
 import Sportsdetail from "./manoj/sports page/page/Sportdetail"
+import Photos from "../src/Gopi/Photos"
+import PhotoDetails from "./Gopi/PhotoDetails";
+import Video from "./Gopi/Video";
+import VideoDetials from "./Gopi/VideoDetails"
 
 function App() {
  
@@ -53,6 +57,10 @@ function App() {
             <Route path="/Entertainment/:id" element={<Entertainmentdetail/>}/>
             <Route path="/Sports" element={<Sportsmain/>}/>
             <Route path="/Sports/:id" element={<Sportsdetail/>}/>
+            <Route path="/Photos" element={<Photos/>}/>
+            <Route path="/PhotoDetails" element={<PhotoDetails/>}/>
+            <Route path="/Video" element={<Video/>}/>           
+            <Route path="/VideoDetails" element={<VideoDetials/>}/>           
           </Routes>
         </Box>
       </Box>
