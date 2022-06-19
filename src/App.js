@@ -26,6 +26,13 @@ import Photos from "../src/Gopi/Photos"
 import PhotoDetails from "./Gopi/PhotoDetails";
 import Video from "./Gopi/Video";
 import VideoDetials from "./Gopi/VideoDetails"
+import { About } from "./Bhagesh/Footer/About";
+import { Contact } from "./Bhagesh/Footer/Contact";
+import { INVESTORS } from "./Bhagesh/Footer/INVESTORS";
+import { PRIVACYPOLICY } from "./Bhagesh/Footer/PRIVACYPOLICY";
+import { ADVERTISE } from "./Bhagesh/Footer/ADVERTISE";
+
+
 
 function App() {
  
@@ -60,7 +67,14 @@ function App() {
             <Route path="/Photos" element={<Photos/>}/>
             <Route path="/PhotoDetails" element={<PhotoDetails/>}/>
             <Route path="/Video" element={<Video/>}/>           
-            <Route path="/VideoDetails" element={<VideoDetials/>}/>           
+            <Route path="/VideoDetails" element={<VideoDetials/>}/>      
+
+            <Route path="/About" element={<About/>}/> 
+            <Route path="/Contact" element={<Contact/>}/> 
+            <Route path="/INVESTORS" element={<INVESTORS/>}/> 
+            <Route path="/ADVERTISE" element={<ADVERTISE/>}/> 
+            <Route path="/PRIVACYPOLICY" element={<PRIVACYPOLICY/>}/>            
+          
           </Routes>
         </Box>
       </Box>
