@@ -20,6 +20,8 @@ This project is a clone of "https://www.dnaindia.com/", which is News website. T
 * Bhagesh Madavi : https://github.com/123bhagesh
 
 * Manoj : https://github.com/manojbarkicodee
+
+* Gopi Reddy : https://github.com/GopiReddy1708
 <hr>
 
 ## Features
