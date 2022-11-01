@@ -15,7 +15,7 @@ This project is a clone of "https://www.dnaindia.com/", which is News website. T
 
 * Majid Sayed : https://github.com/SayedMajid
 
-* Pradip : https://Danny12244
+* Pradip : https://github.com/Pradeep-psy
 
 * Bhagesh Madavi : https://github.com/123bhagesh
 
@@ -30,8 +30,19 @@ This project is a clone of "https://www.dnaindia.com/", which is News website. T
 
 * Fetching News using news API .
 
+* Easy to read and accessable.
 
-## Languages and Tools
+## Some Screenshots
+
+![image (3)](https://user-images.githubusercontent.com/101596416/199303928-3c89c9bf-e882-49e9-b868-5230564e7951.png)
+
+![image (4)](https://user-images.githubusercontent.com/101596416/199303948-32a82f90-b25d-4b79-932f-21a09f5e104c.png)
+
+![image (5)](https://user-images.githubusercontent.com/101596416/199303978-78a0d34a-9e2a-44ae-9d66-a7479533232d.png)
+
+![image (6)](https://user-images.githubusercontent.com/101596416/199304010-875dde74-1b81-4a10-bfe3-bee979383dbc.png)
+
+## Tech Stack
 
 * HTML
 * CSS
@@ -40,12 +51,3 @@ This project is a clone of "https://www.dnaindia.com/", which is News website. T
 * Redux
 * Chakra UI
 
-## Tools
-
-* News API
-
-* VS Code
-
-* Netlify (For deploying the website.)
-
-* GitHub (To work remotely with Team memebers).
